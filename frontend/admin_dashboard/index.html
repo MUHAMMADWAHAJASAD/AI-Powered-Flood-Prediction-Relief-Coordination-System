@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - AI Flood Relief</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌊 Admin Dashboard - AI Flood Relief</h1>
+
+    <button id="refreshBtn">Refresh Reports</button>
+    <button onclick="window.location.href='predict.html'">Predict Flood</button>
+
+
+    <table id="reportsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Area</th>
+                <th>People Affected</th>
+                <th>Citizen Message</th>
+                <th>Flood Severity</th>
+                <th>Flooded Area Ratio</th>
+                <th>Recommended Resources</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Reports will be populated here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
